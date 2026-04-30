@@ -16,10 +16,10 @@ https://pierrickharnay.github.io/PierrickHarnay_Notebook/
 [yonas250@gmail.com](mailto:yonas250@gmail.com)
 
 
-## <center>YONATAN SCHNEIDER</center>
-<center>Department of Marine Biology</center>
-<center>University of Haifa</center>
-<center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center>
+## <center>YONATAN SCHNEIDER</center>  
+<center>Department of Marine Biology</center>  
+<center>University of Haifa</center>  
+<center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center>  
 
 ##
 
@@ -34,10 +34,9 @@ with excellent communication and training skills.
 - B.Sc. student in marine sciences and environment.  
 - Graduated with honors in the marine biotechnology program.
 
-2021 | Certified International Skipper.  
 2013 | **“Meitzar”** Kibbutz Meitzar, Golan Heights
-- Pre-Military Social Program in.  
-- Social volunteering with Israel Nature and Parks Authority.
+- Pre-Military Social Program.  
+- Volunteering with Israel Nature and Parks Authority.
 
 ### Professional Experience
 2023 – 2024 | **“ECOncrete”**, Tel Aviv - Marine biologist.  
@@ -46,7 +45,9 @@ with excellent communication and training skills.
 - Collaborating and helping different sectors in the office.  
 
 2020 – 2022 | **“VIPet”**, Hadera – Veterinary assistant.  
+
 2018 – 2020 | **“Agnes” pub**, Hod Hasharon - Shift supervisor and bartender.  
+
 2013 – 2017 | **Israel Air Force** - Loadmaster on C-130 and B-707 aircrafts.
 - Training flights and operational activities.
 - Operation manager.
@@ -59,7 +60,7 @@ with excellent communication and training skills.
 ### SKILLS 
 - PADI Advanced Open Water SCUBA Diving.
 - AAUS scientific diving.
-- APNEA free diving.
+- APNEA TOTAL free diving.
 - International skipper lisence  
 - Permis Mer – Israeli skipper License for International Waters.
 - Languages – Hebrew (Native), English (Fluent oral and written), Spanish and Portuguese (Basic).
