@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I am futur PhD student in marine ecology and physiology science in PutnamLAb. My project will be based on Genetic, functional and reproductive diversity of Pocillopora in the lagoon of Mo’orea. 
- 
+A marine biologist and MSc student with vast experience and knowledge in nature biology, outdoor activities, and
+research. Extensive experience guiding groups and individuals. Fast learner and dedicated worker
+with excellent communication and training skills.
 
-### More Information
-
-https://pierrickharnay.github.io/PierrickHarnay_Notebook/
 
 ### Contact me
 
@@ -21,11 +19,6 @@ https://pierrickharnay.github.io/PierrickHarnay_Notebook/
 <center>University of Haifa</center>  
 <center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center>  
 
-##
-
-A marine biologist with vast experience and knowledge in nature biology, outdoor activities, and
-research. Extensive experience guiding groups and individuals. Fast learner and dedicated worker
-with excellent communication and training skills.
 
 ##
 
