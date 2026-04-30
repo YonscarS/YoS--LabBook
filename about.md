@@ -8,9 +8,6 @@ A marine biologist and MSc student with vast experience and knowledge in nature 
 research. Extensive experience guiding groups and individuals. Fast learner and dedicated worker
 with excellent communication and training skills.
 
-### More Information
-
-https://pierrickharnay.github.io/PierrickHarnay_Notebook/
 
 ### Contact me
 
