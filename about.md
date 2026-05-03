@@ -1,7 +1,7 @@
 ## <center>YONATAN SCHNEIDER</center>  
-<center>Department of Marine Biology</center>   
-<center>University of Haifa</center>  
-<center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center>  
+<center>Department of Marine Biology</center><br>
+<center>University of Haifa</center><br>
+<center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center><br>
 <center><a href="mailto:yonas250@gmail.com">yonas250@gmail.com</a></center>
 
 ##
