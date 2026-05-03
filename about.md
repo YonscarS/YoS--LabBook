@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 ## <center>YONATAN SCHNEIDER</center>  
 <center>Department of Marine Biology</center><br>
 <center>University of Haifa</center><br>
