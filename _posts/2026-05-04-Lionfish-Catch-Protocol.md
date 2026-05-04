@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Lionfish Catch Protocol"
+date: 2026-05-04
+categories: [Protocols]
+tags: [lionfish, field-protocol]
+---
 
 # <center>**Fish Collection**</center>
 
@@ -8,7 +15,7 @@
 
 ## ***Lionfish***  
 
-![Pterois miles.jpg](/images/Pterois%20miles.jpg) 
+![Pterois miles.jpg]({{site.baseurl}}/images/Pterois%20miles.jpg)
 **Fig. 1**: *Pterois miles*, the Lionfish Lessepsian invader specie. 
 
 ### *Materials*  
