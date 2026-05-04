@@ -70,12 +70,12 @@ tags: [lionfish, field-protocol]
 
 *Filling on the boat:*
 | Specimen no. | Catching diver | Fish specie | Extraction time | Est. size (L/M/S) | Notes |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+|--------------|----------------|-------------|-----------------|-------------------|-------|
+|              |                |             |                 |                   |       |
+|              |                |             |                 |                   |       |
+|              |                |             |                 |                   |       |
+|              |                |             |                 |                   |       |
+|              |                |             |                 |                   |       |
 
 *Additionals:*  
 For calculating how long the fish are in the coolers note down:
