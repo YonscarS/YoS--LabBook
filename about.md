@@ -1,11 +1,11 @@
+
 ## <center>YONATAN SCHNEIDER</center>  
-<center>Department of Marine Biology</center><br>
-<center>University of Haifa</center><br>
-<center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center><br>
+<center>Department of Marine Biology</center>  
+<center>University of Haifa</center>  
+<center>199 Aba Khoushy Ave., Mount Carmel, Haifa, 3498838, Israel</center>  
 <center><a href="mailto:yonas250@gmail.com">yonas250@gmail.com</a></center>
 
-##
-
+***
 
 A marine biologist and MSc student with vast experience and knowledge in nature biology, outdoor activities, and
 research. Extensive experience guiding groups and individuals. Fast learner and dedicated worker
