@@ -6,7 +6,7 @@ categories: [Protocols]
 tags: [lionfish, field-protocol]
 ---
 
-# <center>**Fish Collection**</center>
+# <center>Fish Collection</center>
 
 
 #### *There are many ways to capture live fish specimen. The gear and method vary widely depending on your target species and the structural complexity of the habitat. This protocol details the collection of venomous lionfish.*
