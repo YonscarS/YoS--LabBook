@@ -27,8 +27,12 @@ with excellent communication and training skills.
 - Collaborating and helping different sectors in the office.  
 
 2020 – 2022 | **“VIPet”**, Hadera – Veterinary assistant.
+- Ongoing treatments.
+- Surgery & hospitalization assistance.
+- Desk operating & costomers service.
 
-2018 – 2020 | **“Agnes” pub**, Hod Hasharon - Shift supervisor and bartender.
+2018 – 2020 | **“Agnes” pub**, Hod Hasharon - bartender.
+- Shift supervisor.
 
 2013 – 2017 | **Israel Air Force** - Loadmaster on C-130 and B-707 aircrafts.
 - Training flights and operational activities.
@@ -37,8 +41,7 @@ with excellent communication and training skills.
 - Deputy course commander.
 - 2013 - Israel Air Force pilot academy.  
 
-2009 – 2012 | **Israeli youth movements and camps** - Counselor.
-
+2009 – 2012 | **Israeli youth movements and camps** - Counselor.  
 
 ### SKILLS 
 - PADI Advanced Open Water SCUBA Diving.
