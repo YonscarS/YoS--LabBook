@@ -20,7 +20,7 @@ with excellent communication and training skills.
 - Pre-Military Social Program.  
 - Volunteering with Israel Nature and Parks Authority.
 
-### Professional Experience
+### EXPERIENCE
 2023 – 2024 | **“ECOncrete”**, Tel Aviv - Marine biologist.  
 - Scientific analysis and report writing.
 - Planning and executing monitoring trips abroad.
