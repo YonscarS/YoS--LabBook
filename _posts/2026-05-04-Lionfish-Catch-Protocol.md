@@ -69,8 +69,10 @@ tags: [lionfish, field-protocol]
 - Divers' names
 
 *Filling on the boat:*
+
 | Specimen no. | Catching diver | Fish specie | Extraction time | Est. size (L/M/S) | Notes |
 |--------------|----------------|-------------|-----------------|-------------------|-------|
+|              |                |             |                 |                   |       |
 |              |                |             |                 |                   |       |
 |              |                |             |                 |                   |       |
 |              |                |             |                 |                   |       |
