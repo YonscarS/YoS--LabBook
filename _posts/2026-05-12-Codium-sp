@@ -1,0 +1,41 @@
+## Primer Design & Phylogenetic Analysis of Codium sp. Using The *rbcL* Gene
+
+Identifing the green algae *Codium spongiosum* by comparing the small nucleotide changes in the target gene of *rcbL*, a well presurved gene in the chloroplast that codes for the large subunit of the enzyme ribulose bisphosphate carboxylase/oxygenase (RuBisCO), to other species from the same genus.
+
+Surching for "Codium rbcL" Nucleotides in NCBI resulting options for *Codium spongiosum* and several other species.
+
+| Specie Name | *rcbL* gene code |
+|---|---|
+| *Codium spongiosum* | >KP686005.1 | 
+| *Codium duthieae* | >KP686016.1 |
+| *Codium lucasii* | >KP686023.1 |
+| *Codium dwarkense* | >KP686019.1 |
+
+Aligning the DNA coding sequences using ClustalW in MEGA softwere and locating target areas presence.
+
+![Codium Prim1.jpg]({{site.baseurl}}/images/Codium%20Prim1.jpg)  
+![Codium Prim2.jpg]({{site.baseurl}}/images/Codium%20Prim2.jpg)  
+*conserved regions for primers.*
+
+![Codium Alignment.jpg]({{site.baseurl}}/images/Codium%20Alignment.jpg)  
+*Variable regions for identification.*
+
+[Primer3](https://primer3.ut.ee/) was used to run *rcbL* gene coding sequence of *Codium spongiosum* to generate the following Primers:  
+| F/R | Sequence | Length | Tm | GC content | Amp. size | Position |
+|---|---|---|---|---|---|---|
+| F | GACGTCCACTTTTAGGTTGTACT | 23 | 58.37 | 43.48% | 205 bp | 3'th |
+| R | TCACCAGTCTCAGCTTGTGA | 20 | 58.59 | 50% | 205 bp |  3'th |
+
+[Primer-BLAST](https://www.ncbi.nlm.nih.gov/tools/primer-blast/index.cgi) was used to verify the specifity of the generated primers.
+
+![Codium Verify.jpg]({{site.baseurl}}/images/Codium%20Verify.jpg)  
+*Out put while searched for specific primers on nucleotide data base od green algae*
+
+Previous alignment was used to build a Neighbor-Joining phyligenetic tree in MEGA softwer. Tree was build under *Bootstrap* method with 1000 replications with *Kimura 2-parameter* model and *uniform rates* among sites. Missing or gaps in the data was dealth by *pairwize deletion*.
+
+![Codium Tree.jpg]({{site.baseurl}}/images/Codium%20Tree.jpg)  
+*Neighbor-Joining phylogenetic tree of aligned Codium sp. sequences*
+
+In the phylogenetic tree there are four species of Codium clustered together.  
+The two cloasest species shown in the image are *Codium lucasii* and *Codium spongiosum*, clustered together with their relatively short branch lengths (0.006 and 0.013 correspondly) suggest low genetic divergence. The two other cloasly related species clustered together are *Codium dwarkense* and *Codium duthieae* with a bit longer branch length between them (0.052 and 0.042 correspondly).  
+Both groups have High bootstap sopport indicating that the main branches in the tree are highly reliable.
