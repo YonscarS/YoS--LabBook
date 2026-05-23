@@ -37,7 +37,7 @@ Phylogeny>Construct/Test Neighbour-Joining Tree
     - Substitution model: Kimura 2-parameter
     - Rates among sites: Uniform rates
     - Gaps/missing data treatment: Pairwise deletion or Partial deletion  
-    ![Tree method.jpg]({{site.baseurl}}/images/Tree%20method.jpg)
+    ![Tree method.jpg]({{site.baseurl}}/images/Tree%20method.JPG)
 
 9. **Run the tree analysis:** Compute
 
