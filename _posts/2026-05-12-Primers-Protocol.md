@@ -43,9 +43,12 @@
     
 12. Verification of Primer Specificity with Primer-BLAST
     - Open NCBI Primer-BLAST and enter the forward and reverse primer sequences designed by Primer3.  
-    ![Primer Ver1]({{site.baseurl}}/images/Primer%20Ver1.JPG)
+
+    ![Primer Ver1]({{site.baseurl}}/images/Primer%20Ver1.JPG)  
+
     - Select an appropriate database, such as the nucleotide collection or RefSeq representative genomes, depending on the organism.  
-    ![Primer Ver2]({{site.baseurl}}/images/Primer%20Ver2.JPG)
+
+    ![Primer Ver2]({{site.baseurl}}/images/Primer%20Ver2.JPG)  
  
 13. First, check that the primers amplify the expected region in the target species. Then repeat the search against closely related species, the same genus, or a broader taxonomic group to detect possible non-target amplification.  
 If the primers amplify several closely related species, they may still be acceptable for species identification if the amplified region contains enough SNPs or indels and the product will be sequenced.
