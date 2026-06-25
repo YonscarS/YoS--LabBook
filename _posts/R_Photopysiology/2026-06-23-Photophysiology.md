@@ -1,9 +1,9 @@
 ## Effect of Habitat on the Photophysiology of Algae Using Pulse-Amplitude Modulated (PAM) Fluorometry
-#### Aim
+### Aim
 
 Determine whether habitat influences the photophysiology of algae by comparing chlorophyll fluorescence parameters among algal specimens collected from different environmental conditions. Specifically, Pulse-Amplitude Modulated (PAM) fluorometry was used to quantify photosynthetic efficiency and photoprotective responses in algae originating from a sun exposed "light" habitat compared to a shaded "dark" habitat.
 
-#### Experimental Design
+### Experimental Design
 - Comparative study  
 - Independent Variable:  
     1. High-light exposure habitat - "light"  
@@ -23,16 +23,16 @@ Determine whether habitat influences the photophysiology of algae by comparing c
         - Maximum electron transport rate (ETRmax) = Asymptotic maximum (Am) = max photosynthesis (Pmax)   
         - Saturation irradiance (Ik or Ek)  
 
-#### Materials and Methods
+### Materials and Methods
 
 - Algae specimens were collected from two habitat types  
 - Both habitats were fully subtidal on the tidal platforms of Sdot Yam  
 - Pulse-Amplitude Modulated (PAM) measurements were conducted for two groups:  
-    1. 12 algae samples taken from "light" habitat   
+    1. Twelve algae samples taken from "light" habitat   
     
     !["Light" algae plate]({{site.baseurl}}/images/L_plate.JPG)  
 
-    2.  9 algae samples taken from "dark" habitat  
+    2. Eight algae samples taken from "dark" habitat  
 
     !["Dark" algae plate]({{site.baseurl}}/images/D_plate.JPG)  
 
@@ -40,6 +40,7 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 - Species were identified to genus level using morphological characteristics
 - Prior to dark fluorescence measurements, specimens were adapted in a dark room for 30 min to allow all PSII reaction centres to open  
 - PAM fluorometry was used to assess algal photophysiology  
+    - Sample "Light_13" was taken as a correction for defected sample "Light_9" 
 - Two datasets were collected for each group:  
     1. Light-adapted fluorescence measurements  
 
@@ -67,7 +68,7 @@ Determine whether habitat influences the photophysiology of algae by comparing c
     3. Effective Quantum Yield (ΦPSII) and Electron Transport Rate (ETR) were calculated by the PAM program as raw data.  
 - Rapid Light Curve Parameters were drived from R code calculations.  
 
-#### Results
+### Results
 
 - Raw Data  
     1. [Dark raw data](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/dark.csv)  
@@ -130,13 +131,13 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 
 - **Fig. 2 - ETR curves of dark algae specimens**  
 
-![ETR curves]({{site.baseurl}}/images/ETR_curves.png)  
+![ETR curves]({{site.baseurl}}/images/D_ETR.png)  
  Electrom transport rate (ETR; calculated by PAM program) in relation to photosynthetically Active Radiation (PAR; µmol photons m⁻² s⁻¹) for eight algae genus. Curves show how photosynthetic electron transport responds to increasing light intensity.  
 
 - **Fig. 3 - ETR curves of light & dark specimens**  
 
 ![ETR curves]({{site.baseurl}}/images/ETR_curves.png)  
- Electrom transport rate (ETR; calculated by PAM program) in relation to photosynthetically Active Radiation (PAR; µmol photons m⁻² s⁻¹) for twelve light algae genus in the left and eight algae genus in the right. Curves show how photosynthetic electron transport responds to increasing light intensity.  
+ Electrom transport rate (ETR; calculated by PAM program) in relation to photosynthetically Active Radiation (PAR; µmol photons m⁻² s⁻¹) for eleven light algae genus in the left and eight algae genus in the right. Curves show how photosynthetic electron transport responds to increasing light intensity.  
 
 - **Fig. 4 - Box plots of Light & Dark correlated species**  
 
@@ -149,7 +150,7 @@ Lower box line represents the first quartile (Q₁ - The lower 25th percentile).
 ![Species difference]({{site.baseurl}}/images/Sp_Diff.png)  
 Differance of four photosynthetic parameters between Light and Dark treatments' values ("Light" minus "Dark") for six algae genus that were collected from both sites. Top-left; Asymptotic maximum (AM), top-right; Apparent quantum yield (AQY), bottom-left; Saturation Irradiance (Ik), bottom-right; Dark Respiration (Rd).  
 
-#### Interpretation  
+### Interpretation  
 ###### Figures 1 - 3    
 All species show a similar response and a typical shape of photosynthesis–irradiance (PI) curve:
 - ETR increases rapidly at low irradiance.
@@ -179,11 +180,11 @@ Difference bar plot for values demonstrating the photophysiology addaption of ea
 Thee different plots for each parameter shows the difference in values, thus helps us with assumptions of how each alge is addapting itself to the different habitat.  
 *Colpomenia* is demonstrating different results from the rest suggesting an option of swap between the habitat specimens.  
 
-###### conclousion
+###### Conclousion
 PAM fluorometry revealed the variation in photophysiological performance. Overall, species differed considerably in their responses, suggesting habitat-specific physiological adaptations. Light-acclimated algae exhibited higher maximum electron transport rates and saturation irradiances, whereas dark-acclimated algae displayed higher apparent quantum yields.  
 These results suggest that habitat light conditions strongly influence algal photosynthetic acclimation, and that different genus might preforme their addaption in different photophysiological preformences.
 
-#### Follow-Up Experiment: Comparison of Photophysiological Performance Among Macroalgal Divisions  
+### Follow-Up Experiment: Comparison of Photophysiological Performance Among Macroalgal Divisions  
 The present study demonstrated significant differences in photophysiological performance among macroalgal genera. A new experiment would therefore investigate photophysiological performance at a higher phylogenetic level by comparing few representatives of the three major macroalgal divisions:  
 - Chlorophyta (green algae)  
 - Phaeophyceae/Ochrophyta (brown algae)  
