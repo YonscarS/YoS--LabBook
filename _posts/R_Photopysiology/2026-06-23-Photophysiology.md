@@ -113,17 +113,22 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 | Dark_7 | 17.600 | 0.145 | 0.238 | 121.678 | Ulva | Dark |  
 | Dark_8 | 16.855 | 0.135 | -0.428 | 125.310 | Galxaura | Dark |
 
-- **Fig. 1**
+- **Fig. 1 - Theoretical quantile slopes**  
+
 ![Theoretical quantile]({{site.baseurl}}/_posts/R_Photophysiology/Quantile_DvsL.png)
 
-- **Fig. 2**
+- **Fig. 2 - ETR curves of all specimens**  
+
 ![ETR curves]({{site.baseurl}}/_posts/R_Photophysiology/ETR_curves.png)
 
-- **Fig. 3**
+- **Fig. 3 - Box plots of Light & Dark correlated species**  
+
 ![Box plots]({{site.baseurl}}/_posts/R_Photophysiology/Sp_box_DvsL.png)
 
-- **Fig. 4**
+- **Fig. 4 - Differences in photophysiology of species**  
+
 ![Species difference]({{site.baseurl}}/_posts/R_Photophysiology/Sp_Diff.png)
 
-- **Fig. 5**
+- **Fig. 5 - The ratio of species' photophysiology differences**  
+
 ![Species difference ratio]({{site.baseurl}}/_posts/R_Photophysiology/Sp_Ratio.png)
