@@ -54,19 +54,20 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 
 - The raw data was analyzed using R studio version 2026.04.0-526.
 - R packages used for analyzing proccess:
-    1. "lubridate" - format date data
-    2. "hms" - format time data
-    3. "dplyr" - data manipulation
-    4. "tidyr" - data manipulation
-    5. "purrr" - data manipulation
-    6. "broom" - data manipulation
-    7. "ggplot2" - graphics
-    8. "patchwork" - graphics
+    1. "lubridate" version 1.9.5 - format date data
+    2. "hms" version 1.1.4 - format time data
+    3. "dplyr" version 1.2.1 - data manipulation
+    4. "tidyr" version 1.3.2 - data manipulation
+    5. "purrr" version 1.2.2 - data manipulation
+    6. "broom" version 1.0.13 - data manipulation
+    7. "ggplot2" version 4.0.3 - graphics
+    8. "patchwork" version 1.3.2- graphics
 - Calculated Parameters:  
     1. Variable Fluorescence -> Fv = Fm − Fo  
     2. Maximum Quantum Yield -> Fv / Fm  
     3. Effective Quantum Yield (ΦPSII) and Electron Transport Rate (ETR) were calculated by the PAM program as raw data.  
 - Rapid Light Curve Parameters were drived from R code calculations.  
+- [R script](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/PAM%20R%20Script.R) & [R environment](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/PAM%20Environment.RData)
 
 ### Results
 

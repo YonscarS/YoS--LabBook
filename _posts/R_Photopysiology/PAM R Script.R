@@ -93,7 +93,7 @@ str(light_ETR_long_filt)
 unique(light_ETR_long_filt$Sample_ID)
 
 # now we will fit curves to the actual data
-#Start by estimating the curve parameters by non-linear least squares method
+# Start by estimating the curve parameters by non-linear least squares method
 # from the fitted curve we get the parameters of aquatic photosynthesis we wanted (following the word of the great Falkowski):
 # Am = asymptotic maximum = Pmax= max photosynthesis
 # AQY = initial sloap = alpha = Fv/Fm
@@ -231,7 +231,7 @@ dark_ETR_long %>%
 unique(dark_ETR_long$Sample_ID)
 
 # now we will fit curves to the actual data
-#Start by estimating the curve parameters by non-linear least squares method
+# Start by estimating the curve parameters by non-linear least squares method
 # from the fitted curve we get the parameters of aquatic photosynthesis we wanted (following the word of the great Falkowski):
 # Am = asymptotic maximum = Pmax= max photosynthesis
 # AQY = initial sloap = alpha = Fv/Fm
@@ -313,7 +313,7 @@ str(dark_nls_data)
 nls_data=as.data.frame(rbind(light_nls_data, dark_nls_data))
 nls_data=nls_data[,-c(2)]
 str(nls_data)
-
+write.csv(nls_data, "Calculated parameters.csv")
 
 nls_data$Taxon=metadata$Taxon[match(nls_data$Sample_ID, metadata$Sample_ID)]
 nls_data$Group=metadata$Group[match(nls_data$Sample_ID, metadata$Sample_ID)]
@@ -464,3 +464,4 @@ test_paired_no_Colpomenia <- nls_data_long_filtered[nls_data_long_filtered$Taxon
 test_paired_no_Colpomenia
 
 save.image("C:/Users/yonas/Desktop/R/RM2026/class2/PAM Environment.RData")
+
