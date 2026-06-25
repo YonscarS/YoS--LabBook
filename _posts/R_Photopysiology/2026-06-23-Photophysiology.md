@@ -20,9 +20,8 @@ Determine whether habitat influences the photophysiology of algae by comparing c
     3. Rapid Light Curve (RLC) parameters  
         - Initial slope of Fv/Fm (α or AQY)  
         - Dark respiration (Rd)  
-        - Maximum electron transport rate (ETRmax)  
+        - Maximum electron transport rate (ETRmax) = Asymptotic maximum (Am) = max photosynthesis (Pmax)   
         - Saturation irradiance (Ik or Ek)  
-        - Asymptotic maximum (Am) = max photosynthesis (Pmax)  
 
 #### Materials and Methods
 
@@ -39,7 +38,7 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 
 - Specimens were detached from their substrate, placed into labelled zip-lock bags containing habitat water, and transported to the laboratory for analysis.
 - Species were identified to genus level using morphological characteristics
-- Prior to dark fluorescence measurements, specimens were dark-adapted for 30 min to allow all PSII reaction centres to open  
+- Prior to dark fluorescence measurements, specimens were adapted in a dark room for 30 min to allow all PSII reaction centres to open  
 - PAM fluorometry was used to assess algal photophysiology  
 - Two datasets were collected for each group:  
     1. Light-adapted fluorescence measurements  
@@ -52,6 +51,16 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 
 > See files "dark.csv" and "light.csv"
 
+- The raw data was analyzed using R studio version 2026.04.0-526.
+- R packages used for analyzing proccess:
+    1. "lubridate" - format date data
+    2. "hms" - format time data
+    3. "dplyr" - data manipulation
+    4. "tidyr" - data manipulation
+    5. "purrr" - data manipulation
+    6. "broom" - data manipulation
+    7. "ggplot2" - graphics
+    8. "patchwork" - graphics
 - Calculated Parameters:  
     1. Variable Fluorescence -> Fv = Fm − Fo  
     2. Maximum Quantum Yield -> Fv / Fm  
@@ -113,22 +122,79 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 | Dark_7 | 17.600 | 0.145 | 0.238 | 121.678 | Ulva | Dark |  
 | Dark_8 | 16.855 | 0.135 | -0.428 | 125.310 | Galxaura | Dark |
 
-- **Fig. 1 - Theoretical quantile slopes**  
+- **Fig. 1 - ETR curves of light algae specimens**  
 
-![Theoretical quantile]({{site.baseurl}}/images/Quantile_DvsL.png)
+![Light ETR]({{site.baseurl}}/images/L_ETR.png)
+ Electrom transport rate (ETR; calculated by PAM program) in relation to photosynthetically Active Radiation (PAR; µmol photons m⁻² s⁻¹) for twelve algae genus. Curves show how photosynthetic electron transport responds to increasing light intensity.  
 
-- **Fig. 2 - ETR curves of all specimens**  
 
-![ETR curves]({{site.baseurl}}/images/ETR_curves.png)
+- **Fig. 2 - ETR curves of dark algae specimens**  
 
-- **Fig. 3 - Box plots of Light & Dark correlated species**  
+![ETR curves]({{site.baseurl}}/images/ETR_curves.png)  
+ Electrom transport rate (ETR; calculated by PAM program) in relation to photosynthetically Active Radiation (PAR; µmol photons m⁻² s⁻¹) for eight algae genus. Curves show how photosynthetic electron transport responds to increasing light intensity.  
 
-![Box plots]({{site.baseurl}}/images/Sp_box_DvsL.png)
+- **Fig. 3 - ETR curves of light & dark specimens**  
 
-- **Fig. 4 - Differences in photophysiology of species**  
+![ETR curves]({{site.baseurl}}/images/ETR_curves.png)  
+ Electrom transport rate (ETR; calculated by PAM program) in relation to photosynthetically Active Radiation (PAR; µmol photons m⁻² s⁻¹) for twelve light algae genus in the left and eight algae genus in the right. Curves show how photosynthetic electron transport responds to increasing light intensity.  
 
-![Species difference]({{site.baseurl}}/images/Sp_Diff.png)
+- **Fig. 4 - Box plots of Light & Dark correlated species**  
 
-- **Fig. 5 - The ratio of species' photophysiology differences**  
+![Box plots]({{site.baseurl}}/images/Sp_box_DvsL.png)  
+Comparison of four photosynthetic parameters between Light and Dark treatments for six algae genus that were collected from both sites. Top-left; Asymptotic maximum (AM), top-right; Apparent quantum yield (AQY), bottom-left; Saturation Irradiance (Ik), bottom-right; Dark Respiration (Rd).  
+Lower box line represents the first quartile (Q₁ - The lower 25th percentile). Bold line in the box represents the Median (The 50th percentile).Upper box line represents the third quartile (Q₃ - The upper 75th percentile).  
 
-![Species difference ratio]({{site.baseurl}}/images/Sp_Ratio.png)
+- **Fig. 5 - Differences in photophysiology of species**  
+
+![Species difference]({{site.baseurl}}/images/Sp_Diff.png)  
+Differance of four photosynthetic parameters between Light and Dark treatments' values ("Light" minus "Dark") for six algae genus that were collected from both sites. Top-left; Asymptotic maximum (AM), top-right; Apparent quantum yield (AQY), bottom-left; Saturation Irradiance (Ik), bottom-right; Dark Respiration (Rd).  
+
+#### Interpretation  
+###### Figures 1 - 3    
+All species show a similar response and a typical shape of photosynthesis–irradiance (PI) curve:
+- ETR increases rapidly at low irradiance.
+- The rate of increase slows at intermediate irradiance.
+- A maximum ETR is reached.
+- Some species plateau while others decline slightly at high irradiance.
+
+"Light" algae generally shows higher maximum ETR values, higher saturation irradiance, and greater photosynthetic capacity compared to "Dark" algae that shows lower ETR values, earlier saturation, and more sensitivity to increasing irradiance.  
+
+The species differ substantially in photosynthetic capacity. Out of all species measured in this experiment, *Padina* consistently exhibits the highest ETR and therefore the greatest capacity for electron transport and photosynthesis capability.
+
+###### Figure 4  
+**Am** represents the maximum electron transport rate (ETRmax), which means that higher values indicate greater photosynthetic capacity and higher productivity.  
+The higher Am values of the Light-acclimated specimens indicates for the possession of greater photosynthetic capacity.  
+
+**AQY** is the initial slope of the light-response curve and it represents the efficiency of light utilisation under low irradiance.  
+The higher AQY values of the Dark-acclimated algae indicates for more efficiency at capturing and using low levels of light, probably due to their adaptation to shaded conditions.  
+
+**Ik** is the irradiance level at which photosynthesis becomes light-saturated, which means that higher Ik indicates for better adaptation to strong light, and for the ability of plants to continue increasing photosynthesis at higher irradiance.  
+From the plots it seems that the Light-acclimated algae require higher irradiance before saturation occurs and therefore their tolerance for strong light is better then the Dark-acclimated algae.  
+
+**Rd** estimates the respiration losses. The greater negative the values points on more carbon consumption through respiration.
+It is observed that the Light-acclimated algae tend to have more negative Rd values, and therefore higher metabolic activity.
+
+###### Figures 5  
+Difference bar plot for values demonstrating the photophysiology addaption of each algae genus.  
+Thee different plots for each parameter shows the difference in values, thus helps us with assumptions of how each alge is addapting itself to the different habitat.  
+*Colpomenia* is demonstrating different results from the rest suggesting an option of swap between the habitat specimens.  
+
+###### conclousion
+PAM fluorometry revealed the variation in photophysiological performance. Overall, species differed considerably in their responses, suggesting habitat-specific physiological adaptations. Light-acclimated algae exhibited higher maximum electron transport rates and saturation irradiances, whereas dark-acclimated algae displayed higher apparent quantum yields.  
+These results suggest that habitat light conditions strongly influence algal photosynthetic acclimation, and that different genus might preforme their addaption in different photophysiological preformences.
+
+#### Follow-Up Experiment: Comparison of Photophysiological Performance Among Macroalgal Divisions  
+The present study demonstrated significant differences in photophysiological performance among macroalgal genera. A new experiment would therefore investigate photophysiological performance at a higher phylogenetic level by comparing few representatives of the three major macroalgal divisions:  
+- Chlorophyta (green algae)  
+- Phaeophyceae/Ochrophyta (brown algae)  
+- Rhodophyta (red algae)  
+
+**Hypothesis** - Photophysiological parameters differ among macroalgal divisions because each lineage has evolved distinct photosynthetic pigments, light-harvesting mechanisms, and ecological adaptations.  
+
+At least three species from each division sould be collected from similar habitats to minimise environmental variation. For example:
+
+| Division	| Example Species |
+|-----------|-----------------|
+| Chlorophyta |	Ulva, Codium, Caulerpa |
+| Phaeophyceae | Padina, Dictyota, Sargassum |
+| Rhodophyta | Jania, Galaxaura, Hypnea |
