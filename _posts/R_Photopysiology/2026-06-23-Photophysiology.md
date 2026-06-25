@@ -29,10 +29,12 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 - Algae specimens were collected from two habitat types  
 - Both habitats were fully subtidal on the tidal platforms of Sdot Yam  
 - Pulse-Amplitude Modulated (PAM) measurements were conducted for two groups:  
-    1. 12 algae samples taken from "light" habitat  
+    1. 12 algae samples taken from "light" habitat   
+    
     !["Light" algae plate]({{site.baseurl}}/_posts/R_Photophysiology/L_plate.JPG)  
 
     2.  9 algae samples taken from "dark" habitat  
+
     !["Dark" algae plate]({{site.baseurl}}/_posts/R_Photophysiology/D_plate.JPG)  
 
 - Specimens were detached from their substrate, placed into labelled zip-lock bags containing habitat water, and transported to the laboratory for analysis.
@@ -41,9 +43,11 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 - PAM fluorometry was used to assess algal photophysiology  
 - Two datasets were collected for each group:  
     1. Light-adapted fluorescence measurements  
+
     !["Light" algae in PAM program]({{site.baseurl}}/_posts/R_Photophysiology/L_PAM.jpg)  
     
     2. Dark-adapted fluorescence measurements  
+    
     !["Light" algae in PAM program]({{site.baseurl}}/_posts/R_Photophysiology/D_PAM.jpg)  
 
 > See files "dark.csv" and "light.csv"
