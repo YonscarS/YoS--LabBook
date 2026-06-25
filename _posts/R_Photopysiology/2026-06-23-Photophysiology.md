@@ -31,11 +31,11 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 - Pulse-Amplitude Modulated (PAM) measurements were conducted for two groups:  
     1. 12 algae samples taken from "light" habitat   
     
-    !["Light" algae plate]({{site.baseurl}}/_posts/R_Photophysiology/L_plate.JPG)  
+    !["Light" algae plate]({{site.baseurl}}/images/L_plate.JPG)  
 
     2.  9 algae samples taken from "dark" habitat  
 
-    !["Dark" algae plate]({{site.baseurl}}/_posts/R_Photophysiology/D_plate.JPG)  
+    !["Dark" algae plate]({{site.baseurl}}/images/D_plate.JPG)  
 
 - Specimens were detached from their substrate, placed into labelled zip-lock bags containing habitat water, and transported to the laboratory for analysis.
 - Species were identified to genus level using morphological characteristics
@@ -44,11 +44,11 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 - Two datasets were collected for each group:  
     1. Light-adapted fluorescence measurements  
 
-    !["Light" algae in PAM program]({{site.baseurl}}/_posts/R_Photophysiology/L_PAM.jpg)  
+    !["Light" algae in PAM program]({{site.baseurl}}/images/L_PAM.jpg)  
     
     2. Dark-adapted fluorescence measurements  
 
-    !["Light" algae in PAM program]({{site.baseurl}}/_posts/R_Photophysiology/D_PAM.jpg)  
+    !["Light" algae in PAM program]({{site.baseurl}}/images/D_PAM.jpg)  
 
 > See files "dark.csv" and "light.csv"
 
@@ -115,20 +115,20 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 
 - **Fig. 1 - Theoretical quantile slopes**  
 
-![Theoretical quantile]({{site.baseurl}}/_posts/R_Photophysiology/Quantile_DvsL.png)
+![Theoretical quantile]({{site.baseurl}}/images/Quantile_DvsL.png)
 
 - **Fig. 2 - ETR curves of all specimens**  
 
-![ETR curves]({{site.baseurl}}/_posts/R_Photophysiology/ETR_curves.png)
+![ETR curves]({{site.baseurl}}/images/ETR_curves.png)
 
 - **Fig. 3 - Box plots of Light & Dark correlated species**  
 
-![Box plots]({{site.baseurl}}/_posts/R_Photophysiology/Sp_box_DvsL.png)
+![Box plots]({{site.baseurl}}/images/Sp_box_DvsL.png)
 
 - **Fig. 4 - Differences in photophysiology of species**  
 
-![Species difference]({{site.baseurl}}/_posts/R_Photophysiology/Sp_Diff.png)
+![Species difference]({{site.baseurl}}/images/Sp_Diff.png)
 
 - **Fig. 5 - The ratio of species' photophysiology differences**  
 
-![Species difference ratio]({{site.baseurl}}/_posts/R_Photophysiology/Sp_Ratio.png)
+![Species difference ratio]({{site.baseurl}}/images/Sp_Ratio.png)
