@@ -57,9 +57,9 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 #### Results
 
 - Raw Data  
-    1. [Dark raw data]({{site.baseurl}}/_posts/R_Photophysiology/dark.csv)  
-    2. [Light raw data]({{site.baseurl}}/_posts/R_Photophysiology/light.csv)  
-- [Metadata]({{site.baseurl}}/_posts/R_Photophysiology/Photophysiology_metadata.csv)  
+    1. [Dark raw data](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/dark.csv)  
+    2. [Light raw data](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/light.csv)  
+- [Metadata](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/Photophysiology_metadata.csv)  
 
 | **Group** | **Sample** | **Taxon** | **Sample_ID** |  
 |-----------|------------|-----------|---------------|  
@@ -85,7 +85,7 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 | Light | 9 | Ulva | Light_9 |  
 | Light | 13 | Ulva | Light_13 |  
 
-- Calculated photophysiology parameters
+- [Calculated photophysiology parameters](https://github.com/YonscarS/YoS--LabBook/blob/main/_posts/R_Photopysiology/Calc_parameters.csv)
 
 | **Sample_ID** | **Am** | **AQY** | **Rd** | **Ik** | **Taxon** | **Group** |  
 |---------------|--------|---------|--------|--------|-----------|-----------|  
@@ -109,3 +109,17 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 | Dark_7 | 17.5998253739184 | 0.14464227722501 | 0.23764429676204 | 121.678292900073 | Ulva | Dark |  
 | Dark_8 | 16.8546953797643 | 0.134503884332498 | -0.4276662271526 | 125.31010136554 | Galxaura | Dark |
 
+- **Fig. 1**
+![Theoretical quantile]({{site.baseurl}}/_posts/R_Photophysiology/Quantile_DvsL.png)
+
+- **Fig. 2**
+![ETR curves]({{site.baseurl}}/_posts/R_Photophysiology/ETR_curves.png)
+
+- **Fig. 3**
+![Box plots]({{site.baseurl}}/_posts/R_Photophysiology/Sp_box_DvsL.png)
+
+- **Fig. 4**
+![Species difference]({{site.baseurl}}/_posts/R_Photophysiology/Sp_Diff.png)
+
+- **Fig. 5**
+![Species difference ratio]({{site.baseurl}}/_posts/R_Photophysiology/Sp_Ratio.png)
