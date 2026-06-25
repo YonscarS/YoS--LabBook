@@ -47,7 +47,7 @@ Determine whether habitat influences the photophysiology of algae by comparing c
     !["Light" algae in PAM program]({{site.baseurl}}/_posts/R_Photophysiology/L_PAM.jpg)  
     
     2. Dark-adapted fluorescence measurements  
-    
+
     !["Light" algae in PAM program]({{site.baseurl}}/_posts/R_Photophysiology/D_PAM.jpg)  
 
 > See files "dark.csv" and "light.csv"
@@ -93,25 +93,25 @@ Determine whether habitat influences the photophysiology of algae by comparing c
 
 | **Sample_ID** | **Am** | **AQY** | **Rd** | **Ik** | **Taxon** | **Group** |  
 |---------------|--------|---------|--------|--------|-----------|-----------|  
-| Light_1 | 33.2531204083411 | 0.124138383694383 | -0.392076904420246 | 267.871382071536 | Jania | Light |  
-| Light_2 | 6.48288440203671 | 0.113757726622265 | -0.0741306420140389 | 56.9885193254898 | Halopteris | Light |  
-| Light_4 | 30.1255228905968 | 0.152982833687472 | -0.670135949726572 | 196.920936581291 | Sargassum | Light |
-| Light_5 | 23.4097869866794 | 0.163451737165566 | 0.0542624463627908 | 143.221402186547 | Hypnea | Light |  
-| Light_6 | 8.82654444134221 | 0.139380135071571 | 0.136145009320897 | 63.3271336464828 | Cudiom | Light |  
-| Light_7 | 47.0819454462712 | 0.184118291883532 | -0.556760029066647 | 255.715741030522 | Padina | Light |  
-| Light_8 | 13.8867534826263 | 0.142197933425134 | -0.0297035569271432 | 97.6579135022202 | Cistosera | Light |  
-| Light_10 | 7.94846412774733 | 0.122375654074901 | -0.120735060877725 | 64.9513515399266 | Galaxaura | Light |  
-| Light_11 | 31.1688074950612 | 0.139077573032331 | 0.0540374798749975 | 224.110953444777 | Dictyota | Light |  
-| Light_12 | 16.8278798129839 | 0.122772542052393 | -0.135741906425159 | 137.0654995952 | Colpomenia | Light |  
-| Light_13 | 17.7312387711855 | 0.0986143115546302 | -0.0853604232877464 | 179.803909713072 | Ulva | Light |  
-| Dark_1 | 33.9598582034005 | 0.207569458343549 | -0.344548742966204 | 163.607201533442 | Colpomenia | Dark |  
-| Dark_2 | 12.8130742275855 | 0.307942002541703 | 0.251554012389022 | 41.608725415268 | Dictyota | Dark |
-| Dark_3 | 5.98163280318466 | 0.2409982994639 | 0.0175071210353956 | 24.820228260908 | Sargassum | Dark |  
-| Dark_4 | 40.5690075621483 | 0.215049809647831 | 0.0866373449118526 | 188.649353508309 | Padina | Dark |  
-| Dark_5 | 8.78277547839224 | 0.0679029168303748 | -0.144030563256971 | 129.343125278876 | Jania | Dark |  
-| Dark_6 | 8.0714269487166 | 0.201499718313963 | 0.0774041065627906 | 40.0567654200899 | Red UNK | Dark |  
-| Dark_7 | 17.5998253739184 | 0.14464227722501 | 0.23764429676204 | 121.678292900073 | Ulva | Dark |  
-| Dark_8 | 16.8546953797643 | 0.134503884332498 | -0.4276662271526 | 125.31010136554 | Galxaura | Dark |
+| Light_1 | 33.253 | 0.124 | -0.392 | 267.871 | Jania | Light |  
+| Light_2 | 6.483 | 0.114 | -0.074 | 56.989 | Halopteris | Light |  
+| Light_4 | 30.126 | 0.153 | -0.670 | 196.921 | Sargassum | Light |
+| Light_5 | 23.410 | 0.163 | 0.054 | 143.221 | Hypnea | Light |  
+| Light_6 | 8.827 | 0.139 | 0.136 | 63.327 | Cudiom | Light |  
+| Light_7 | 47.082 | 0.184 | -0.557 | 255.716 | Padina | Light |  
+| Light_8 | 13.887 | 0.142 | -0.030 | 97.658 | Cistosera | Light |  
+| Light_10 | 7.948 | 0.122 | -0.121 | 64.951 | Galaxaura | Light |  
+| Light_11 | 31.169 | 0.139 | 0.054 | 224.111 | Dictyota | Light |  
+| Light_12 | 16.828 | 0.123 | -0.136 | 137.065 | Colpomenia | Light |  
+| Light_13 | 17.731 | 0.099 | -0.085 | 179.804 | Ulva | Light |  
+| Dark_1 | 33.960 | 0.208 | -0.345 | 163.607 | Colpomenia | Dark |  
+| Dark_2 | 12.813 | 0.308 | 0.252 | 41.609 | Dictyota | Dark |
+| Dark_3 | 5.982 | 0.241 | 0.018 | 24.820 | Sargassum | Dark |  
+| Dark_4 | 40.569 | 0.215 | 0.087 | 188.649 | Padina | Dark |  
+| Dark_5 | 8.783 | 0.068 | -0.144 | 129.343 | Jania | Dark |  
+| Dark_6 | 8.071 | 0.201 | 0.077 | 40.057 | Red UNK | Dark |  
+| Dark_7 | 17.600 | 0.145 | 0.238 | 121.678 | Ulva | Dark |  
+| Dark_8 | 16.855 | 0.135 | -0.428 | 125.310 | Galxaura | Dark |
 
 - **Fig. 1**
 ![Theoretical quantile]({{site.baseurl}}/_posts/R_Photophysiology/Quantile_DvsL.png)
